@@ -1,0 +1,12 @@
+name = "Grenades Into Hatches";
+picture = "";
+actionName = "";
+action = "";
+description = "";
+logo = "";
+logoOver = "";
+tooltip = "Grenades Into Hatches";
+tooltipOwned = "Grenades Into Hatches";
+overview = "";
+author = "Viko";
+overviewPicture = "";
