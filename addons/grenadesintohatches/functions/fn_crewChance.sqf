@@ -1,6 +1,6 @@
 params
 [
-	["_vehicle", objnull]
+	["_vehicle", objNull]
 ];
 
 // TODO - Add a waypoint so mf dont stay near the explosion and fire

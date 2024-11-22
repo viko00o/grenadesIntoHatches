@@ -1,6 +1,6 @@
 params
 [
-	["_vehicle", objnull]
+	["_vehicle", objNull]
 ];
 
 // TODO - Add setting for vehicle destruction

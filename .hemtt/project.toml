@@ -1,0 +1,11 @@
+name = "Grenades Into Hatches"
+author = "Viko"
+prefix = "gih"
+mainprefix = "z"
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 0
+git_hash = 0

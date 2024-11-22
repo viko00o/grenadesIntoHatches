@@ -1,7 +1,7 @@
 params
 [
-	["_vehicle", objnull],
-	["_grenadeAmmo", objnull]
+	["_vehicle", objNull],
+	["_grenadeAmmo", objNull]
 ];
 
 

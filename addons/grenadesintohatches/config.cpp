@@ -1,3 +1,4 @@
+// TODO - check how to use pboprefix
 class CfgPatches 
 {
 	class GIH
@@ -17,7 +18,7 @@ class CfgFunctions
 	{
 		class functions
 		{
-            file = "GIH\functions";
+            file = "z\gih\addons\grenadesIntoHatches\functions";
 			class applyCrewDamage {};
             class applyVehicleDamage {};
             class crewChance {};
@@ -30,7 +31,7 @@ class Extended_PreInit_EventHandlers
 {
     class GIH_PreInit
     {
-        init = "call compile preprocessFileLineNumbers 'GIH\XEH_preInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'z\gih\addons\grenadesIntoHatches\XEH_preInit.sqf'";
     };
 };
 
@@ -38,6 +39,6 @@ class Extended_PostInit_EventHandlers
 {
     class GIH_PostInit
     {
-        init = "call compile preprocessFileLineNumbers 'GIH\XEH_postInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'z\gih\addons\grenadesIntoHatches\XEH_postInit.sqf'";
     };
 };
