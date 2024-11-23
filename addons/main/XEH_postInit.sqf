@@ -25,7 +25,7 @@ player addEventHandler
         if ((abs(_playerToVehiclePos select 0)) < 1.5 && (abs(_playerToVehiclePos select 1)) < 3 && (_playerToVehiclePos select 2) < -1.7 && (_playerToVehiclePos select 2) > -4.5) then
         {
             deleteVehicle _projectile;
-		    [cursorObject, _ammo] spawn gih_fnc_vehicleExplosion;
+		    [cursorObject, _ammo] spawn vik_gih_fnc_vehicleExplosion;
         };
     }
 ];
