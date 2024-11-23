@@ -1,6 +1,6 @@
 class Extended_PreInit_EventHandlers
 {
-    class VIK_GIH_PreInit
+    class PREFIX##_PreInit
     {
         init = "call compile preprocessFileLineNumbers 'vik\gih\main\XEH_preInit.sqf'";
     };
@@ -8,7 +8,7 @@ class Extended_PreInit_EventHandlers
 
 class Extended_PostInit_EventHandlers
 {
-    class VIK_GIH_PostInit
+    class PREFIX##_PostInit
     {
         init = "call compile preprocessFileLineNumbers 'vik\gih\main\XEH_postInit.sqf'";
     };

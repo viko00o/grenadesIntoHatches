@@ -1,6 +1,6 @@
 class CfgFunctions
 {
-	class vik_gih
+	class PREFIX
 	{
 		class functions
 		{
