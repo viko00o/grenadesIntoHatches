@@ -1,11 +1,16 @@
 name = "Grenades Into Hatches"
 author = "Viko"
-prefix = "gih"
-mainprefix = "z"
+prefix = "vik_gih"
+
+[files]
+exclude = [
+	"*.hpp"
+]
 
 [version]
-major = 1
-minor = 0
-patch = 0
-build = 0
+path = "addons/main/script_version.hpp"
 git_hash = 0
+
+[hemtt.release]
+sign = true
+archive = true
